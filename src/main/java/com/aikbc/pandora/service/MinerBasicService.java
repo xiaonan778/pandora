@@ -11,7 +11,7 @@ import com.aikbc.pandora.entity.MinerBasicInfo;
  */
 public interface MinerBasicService {
 	
-	List<MinerBasicInfo> getList(int pageNum,int pageSize);
+	List<MinerBasicInfo> getList();
 	
 	int deleteByPrimaryKey(String id);
 

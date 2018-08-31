@@ -20,7 +20,7 @@ public class MinerBasicController {
 	private MinerBasicService minerBasicService;
 	
 	@RequestMapping(value="getMinerBasicList")
-	public List<MinerBasicInfo> getMinerBasicList(int pageNum,int pageSize){
-		return minerBasicService.getList(pageNum,pageSize);
+	public List<MinerBasicInfo> getMinerBasicList(){
+		return minerBasicService.getList();
 	}
 }

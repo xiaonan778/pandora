@@ -25,7 +25,7 @@ public class MinerBasicInfoImpl implements MinerBasicService {
 	 * @see com.aikbc.pandora.service.MinerBasicService#getList()
 	 */
 	@Override
-	public List<MinerBasicInfo> getList(int pageNum,int pageSize) {
+	public List<MinerBasicInfo> getList() {
 		// TODO Auto-generated method stub
 //		PageHelper.startPage(pageNum,pageSize);
 		return dao.getList();
