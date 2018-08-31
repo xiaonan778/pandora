@@ -1,0 +1,8 @@
+.settings
+logs
+target
+/.classpath
+/.idea
+/coverage-error.log
+/*.iml
+/.project
