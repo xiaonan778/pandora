@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"/>
+<title>Miner Info List</title>
+</head>
+<body>
+  <h2><span th:text="${test}"></span></h2>
+  <div>
+     <ul>
+         <li  th:each="miners:${miners}">
+              <span th:text="${miners.mac}"></span> -
+              <span th:text="${miners.ip}"></span> -
+              <span th:text="${miners.createTime}"></span>
+         </li>
+     </ul>
+   </div>
+   
+</body>
+</html>
